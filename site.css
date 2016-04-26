@@ -1,0 +1,107 @@
+@import url(https://fonts.googleapis.com/css?family=Noto+Sans);
+body {
+  background-color: #ffffff;
+  font-family: 'Noto Sans', sans-serif;
+}
+
+a:hover {
+  color: "red";
+  background-color: red;
+}
+
+a:visited {
+  color: gray;
+}
+
+li {
+  text-align: center;
+  display: inline;
+  float: left;
+  padding: 0 15px;
+}
+
+.greybar {
+  width: 100%;
+  background-color: lightgrey;
+  position: fixed;
+}
+
+.maintitle {
+  text-align: center;
+  font-weight: bold;
+}
+
+.bold {
+  font-weight: bold;
+}
+.navlink{
+  font-style: italic
+  
+}
+.magnifyingglass {
+  float: right;
+  padding: 10px;
+}
+
+.redbar {
+  background-color: red;
+  margin: 0px 100px;
+  padding: 3px;
+}
+
+.header {
+  display: table;
+  margin: 0 auto;
+  padding: 100px 0px 20px 0px;
+}
+
+.columntitle {
+  display: table;
+  margin: 0 auto;
+  padding: 10px;
+}
+
+.image {
+  padding: 2px;
+  float: center;
+}
+
+.picturediv {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.textdiv {
+  text-align: center;
+  clear: both;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+
+.flex1 {
+  color: red;
+  -webkit-flex: 1;
+  flex: 1;
+  padding: 5px;
+}
+
+.flex2 {
+  -webkit-flex: 2;
+  flex: 1;
+  padding: 5px;
+}
+
+.modtitle {
+  font-size: 12;
+}
+
+h5 {
+  color: black;
+  padding: 12px;
+}
+
+.column1 {
+  float: left;
+}
